@@ -1,0 +1,71 @@
+{
+  "availability": {
+    "tier": 0,
+    "categories": [
+      "organic",
+      "cloth"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:leather"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.leather"
+  },
+  "stats": {
+    "main": {
+      "durability": 0.0,
+      "armor_durability": 5.0,
+      "enchantability": 15.0,
+      "rarity": 11.0,
+      "armor": 7.0,
+      "armor/helmet": 1.0,
+      "armor/chestplate": 3.0,
+      "armor/leggings": 2.0,
+      "armor/boots": 1.0,
+      "magic_armor": 8.0,
+      "silentgems:chargeability": 0.8
+    },
+    "grip": {
+      "durability": {
+        "mul1": 0.05
+      },
+      "repair_efficiency": {
+        "mul1": 0.1
+      },
+      "harvest_speed": {
+        "mul1": 0.15
+      },
+      "attack_speed": {
+        "add": 0.15
+      },
+      "rarity": {
+        "add": 5.0
+      }
+    },
+    "lining": {
+      "armor_durability": {
+        "add": 1.0
+      }
+    }
+  },
+  "traits": {
+    "grip": [
+      {
+        "name": "silentgear:flexible",
+        "level": 3
+      }
+    ],
+    "lining": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ]
+  }
+}

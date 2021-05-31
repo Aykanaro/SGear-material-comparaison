@@ -1,0 +1,25 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.leaves"
+  },
+  "stats": {
+    "fletching": {
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 0.9
+    }
+  }
+}

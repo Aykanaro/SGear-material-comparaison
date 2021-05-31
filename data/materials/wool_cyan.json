@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:wool",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:cyan_wool"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wool.cyan"
+  }
+}

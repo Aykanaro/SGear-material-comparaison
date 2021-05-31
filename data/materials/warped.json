@@ -1,0 +1,29 @@
+{
+  "parent": "silentgear:wood",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wood.warped"
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 1
+      }
+    ]
+  }
+}

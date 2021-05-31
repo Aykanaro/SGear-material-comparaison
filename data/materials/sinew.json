@@ -1,0 +1,55 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic",
+      "fiber"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "silentgear:sinew_fiber"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.sinew"
+  },
+  "stats": {
+    "binding": {
+      "durability": {
+        "mul1": 0.05
+      },
+      "repair_efficiency": {
+        "mul1": -0.05
+      }
+    },
+    "bowstring": {
+      "durability": {
+        "mul1": 0.2
+      },
+      "ranged_damage": {
+        "mul1": 0.2
+      },
+      "rarity": {
+        "add": 8.0
+      }
+    }
+  },
+  "traits": {
+    "binding": [
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      }
+    ],
+    "bowstring": [
+      {
+        "name": "silentgear:flexible",
+        "level": 1
+      }
+    ]
+  }
+}

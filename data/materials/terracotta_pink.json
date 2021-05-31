@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:terracotta",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:pink_terracotta"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.terracotta.pink"
+  }
+}

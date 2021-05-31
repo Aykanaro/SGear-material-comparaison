@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:wood",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wood.oak"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:wool",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wool.black"
+  }
+}

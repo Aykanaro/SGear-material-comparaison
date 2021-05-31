@@ -1,0 +1,97 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:gems/lapis"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.lapis_lazuli"
+  },
+  "stats": {
+    "main": {
+      "durability": 200.0,
+      "armor_durability": 13.0,
+      "enchantability": 17.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 5.0,
+      "melee_damage": 2.0,
+      "magic_damage": 3.0,
+      "attack_speed": 0.0,
+      "armor": 15.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 6.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.8,
+      "rarity": 30.0,
+      "silentgems:chargeability": 1.3
+    },
+    "tip": {
+      "enchantability": {
+        "mul2": 0.5
+      },
+      "harvest_speed": {
+        "mul2": -0.1
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "attack_speed": {
+        "add": 0.3
+      },
+      "rarity": {
+        "add": 10.0
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "tip": [
+      {
+        "name": "silentgear:holy",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.75
+          }
+        ]
+      },
+      {
+        "name": "silentgear:lucky",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.75
+          }
+        ]
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:lucky",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.75
+          }
+        ]
+      }
+    ]
+  }
+}

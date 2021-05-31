@@ -1,0 +1,11 @@
+{
+  "parent": "silentgear:terracotta",
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.terracotta.white"
+  }
+}

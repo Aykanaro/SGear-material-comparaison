@@ -1,0 +1,98 @@
+{
+  "availability": {
+    "tier": 0,
+    "categories": [
+      "organic",
+      "wood"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "minecraft:planks"
+      },
+      "exclusions": [
+        "minecraft:acacia_planks",
+        "minecraft:birch_planks",
+        "minecraft:dark_oak_planks",
+        "minecraft:jungle_planks",
+        "minecraft:oak_planks",
+        "minecraft:spruce_planks",
+        "silentgear:netherwood_planks",
+        "minecraft:crimson_planks",
+        "minecraft:warped_planks"
+      ]
+    },
+    "subs": {
+      "rod": {
+        "type": "silentgear:exclusion",
+        "value": {
+          "tag": "forge:rods/wooden"
+        },
+        "exclusions": [
+          "silentgear:netherwood_stick"
+        ]
+      }
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.wood"
+  },
+  "stats": {
+    "main": {
+      "durability": 59.0,
+      "armor_durability": 9.0,
+      "repair_value": 0.25,
+      "enchantability": 15.0,
+      "harvest_level": 0.0,
+      "harvest_speed": 2.0,
+      "melee_damage": 0.0,
+      "magic_damage": 0.0,
+      "attack_speed": 0.0,
+      "armor": 7.0,
+      "armor/helmet": 1.0,
+      "armor/chestplate": 3.0,
+      "armor/leggings": 2.0,
+      "armor/boots": 1.0,
+      "magic_armor": 2.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": 0.0,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.9,
+      "rarity": 1.0,
+      "silentgems:chargeability": 0.6
+    },
+    "rod": {
+      "enchantability": {
+        "mul2": 0.1
+      },
+      "rarity": 1.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:flammable",
+        "level": 1
+      },
+      {
+        "name": "silentgear:flexible",
+        "level": 2
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:flexible",
+        "level": 1
+      }
+    ]
+  }
+}

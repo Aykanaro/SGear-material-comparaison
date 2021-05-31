@@ -1,0 +1,57 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic",
+      "fiber"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "type": "silentgear:exclusion",
+      "value": {
+        "tag": "forge:string"
+      },
+      "exclusions": [
+        "silentgear:flax_string",
+        "silentgear:fluffy_string",
+        "silentgear:sinew_fiber"
+      ]
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.string"
+  },
+  "stats": {
+    "binding": {
+      "durability": {
+        "mul1": -0.05
+      },
+      "armor_durability": {
+        "mul1": 0.05
+      },
+      "repair_efficiency": {
+        "mul1": 0.05
+      }
+    },
+    "bowstring": {
+      "ranged_speed": {
+        "mul1": 0.1
+      },
+      "rarity": {
+        "add": 4.0
+      }
+    }
+  },
+  "traits": {
+    "binding": [
+      {
+        "name": "silentgear:flexible",
+        "level": 1
+      }
+    ]
+  }
+}
