@@ -5,3 +5,5 @@ Check official creator page : https://www.curseforge.com/minecraft/mc-mods/silen
 
 First comparaison [**main material**] without durability and rarity :
 ![image](https://user-images.githubusercontent.com/77416956/120240869-e684a100-c261-11eb-9a02-629e3e3f50a7.png)
+
+Next Step : create an application to compare and select material stats.
